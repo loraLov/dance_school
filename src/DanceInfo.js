@@ -5,7 +5,7 @@ function DanceInfo({danceType}){
             {danceType.map ((element =>{
                 const{id,imageDance, name, duration, groups, price} = element;
                 return <div className='differDance' key = {id}>
-                    <img src = {imageDance} width="380px" alt="dance"/>
+                    <img src = {imageDance} width="320px" alt="dance"/>
                     <h1 className="danceName">{name}</h1>
                     <h3 className='infoDance'>{duration}</h3>
                     <h3 className='infoDance'>{groups}</h3>

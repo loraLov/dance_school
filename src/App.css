@@ -52,7 +52,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 700px;
+  width: 500px;
   font-family: 'Sora', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -121,11 +121,11 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   flex-grow: 1;
   flex-basis: 16%;
-  margin:20px;
+  margin:10px;
   background-color: #BBBBBB;
 }
 .choseBtn:hover{
