@@ -3,25 +3,13 @@ import {data} from './data';
 import './App.css';
 import imageTwo from './ballet_about.jpeg';
 import imageFour from './ballet_about_three.jpeg';
-
-
-
-
 function About (){
     const [review, setReview] = useState(data);
-
     const [showText, setShowText] = useState(false);
     const showTextClick = (element) =>{
         element.showMore = !element.showMore;
         setShowText(!showText);
-
-    }
-
-
-    
-
-
-   
+    } 
     return(
         <div>
         <div className="aboutCommon">
@@ -34,14 +22,10 @@ function About (){
 <p>We will help you discover more in yourself that you might expect.</p>
 </div>
         </div>
-
         <img  src={imageFour} width="100%" alt="about_two"/>
-
-
         <div className="container">
                 <h1>Reviews</h1>
             </div>
-
             <div className='allReviews'>  
         {review.map((element =>{
             const{id,name, rev, showMore} = element;
@@ -53,7 +37,6 @@ function About (){
             )
         }))}
          </div>
-
         </div>
     );
 }

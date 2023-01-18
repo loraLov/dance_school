@@ -5,7 +5,6 @@ import './App.css';
 function Team(){
     const [team, setTeam] = useState(0);
     const {image, name, dance, description, imageOne, imageTwo, imageThree} = dataTeam[team];
-    
     const previousTeam = () =>{
         setTeam ((team => {
             team --;
@@ -24,7 +23,6 @@ function Team(){
             return team;
         }))
     }
-
     return(
         <div>
             <div className='commonTeam'>

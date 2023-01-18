@@ -12,11 +12,9 @@ import Dance from "./Dance";
 import Home from "./Home";
 import Team from "./Team";
 
-
 function App() {
   return (
     <div>
-
       <div className="heading">
    <h1 className="headingOne">Point.</h1>
    <h4 className="headingTwo">Dance Studio</h4>
