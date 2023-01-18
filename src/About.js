@@ -4,7 +4,7 @@ import './App.css';
 import imageTwo from './ballet_about.jpeg';
 import imageFour from './ballet_about_three.jpeg';
 function About (){
-    const [review, setReview] = useState(data);
+    const [review] = useState(data);
     const [showText, setShowText] = useState(false);
     const showTextClick = (element) =>{
         element.showMore = !element.showMore;
@@ -15,7 +15,7 @@ function About (){
         <div className="aboutCommon">
 <img src={imageTwo} width="700px" alt="about"/>
 <div className="text">
-<p>Our dance school was opened in 2010.</p>
+<p>Our dance studio was opened in 2010.</p>
 <p>The idea of creating the schoold belongs to the American dancer Jack Harman, who wanted to pass on his experience to a new generation of dancers.</p>
 <p>The natives of our school teach choreagraphy all over the world, many of them have created their own dance studios, others have become laureats of international dance conpetitions.</p>
 <p>The main idea of our school is self-expression of one's personality through dance.</p>

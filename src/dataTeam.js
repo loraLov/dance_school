@@ -38,7 +38,7 @@ export const dataTeam = [
                 image:"https://images.pexels.com/photos/8929841/pexels-photo-8929841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 name:"Robert",
                 dance:"Jazz Funk/ Hip-Hop",
-                description:"Robert is the guru of rythm and style. He has been dancing since the age of 8. Studied with the best hip=hop dancers in America. Winner of America's biggest hip-hop competitions. Member of our team for 3 years.",
+                description:"Robert is the guru of rythm and style. He has been dancing since the age of 8. Studied with the best hip-hop dancers in America. Winner of America's biggest hip-hop competitions. Member of our team for 3 years.",
                 imageOne:"https://images.pexels.com/photos/8927261/pexels-photo-8927261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 imageTwo:"https://images.pexels.com/photos/8929025/pexels-photo-8929025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 imageThree:"https://images.pexels.com/photos/8927238/pexels-photo-8927238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
