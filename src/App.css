@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  background-color: #979797;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #979797;
+  padding: 15px;
+}
+.main{
+  display: flex;
+}
+.mainPic{
+  flex: 1;
+}
+.headingOne{
+  color: #E99B9B;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Varela Round', sans-serif;
+}
+.headingTwo{
+  color: #E99B9B;
+  font-family: 'Manrope', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #E99B9B;
+}
+.link{
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #B22727;
+  cursor: pointer;
+}
+.link:hover{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.aboutCommon{
+  display: flex;
+  justify-content: space-around;
+  background-color: #979797;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+h1{
+ 
+  color: #E99B9B;
+  font-size: 35px;
+  font-family: 'Varela Round', sans-serif;
+}
+.allReviews{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  background-color: #E99B9B;
+  width: 350px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+.btn{
+  background-color: #E99B9B;
+  border: none;
+  color: #B22727;
+  cursor: pointer;
+}
+h2{
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  color: #B22727;
+}
+.textRev{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+.commonBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.choseBtn{
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: #B22727;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.differDance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 16%;
+  margin:20px;
+  background-color: #BBBBBB;
+}
+.choseBtn:hover{
+  background-color: #E99B9B;
+  color: #B22727;
+}
+.danceName{
+  font-family: 'Kalam', cursive;
+  color: #B22727;
+  font-size: 30px;
+}
+.infoDance{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.commonTeam{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.teamName{
+  font-family: 'Kalam', cursive;
+  color: #B22727;
+  font-size: 40px;
+}
+.typeDance{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.infoTeam{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  width: 600px;
+}
+.picTeam{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.btnTeam{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.clickTeam{
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  background-color: #B22727;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 150px;
+}
+.clickTeam:hover{
+  background-color: #E99B9B;
+  color: #B22727;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.free{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.trialText{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  width: 900px;
+  text-align: center;
+}
+.trialBtn{
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  background-color: #B22727;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 200px;
+}
+.workingHours{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #E99B9B;
+  margin-top: 10px;
+}
+.cont{
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+}
+.blue{
+  color: blue;
 }
